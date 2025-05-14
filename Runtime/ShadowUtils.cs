@@ -602,7 +602,7 @@ namespace UnityEngine.Rendering.Universal
             {
                 CoreUtils.SetKeyword(cmd, ShaderKeywordStrings.SoftShadowsLow, false);
                 CoreUtils.SetKeyword(cmd, ShaderKeywordStrings.SoftShadowsMedium, false);
-                CoreUtils.SetKeyword(cmd, ShaderKeywordStrings.SoftShadowsHigh, false);
+                CoreUtils.SetKeyword(cmd, ShaderKeywordStrings.SoftShadowsHigh, true);
             }
             else
             {
